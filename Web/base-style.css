@@ -1,0 +1,60 @@
+#head{
+  list-style-type: none;
+  border-style:solid;
+    border-style:30px;
+  span.crosshair {cursor:wait;}
+ background-color: red;
+ animation-name: example;
+ animation-duration: 10s;
+ animation-iteration-count: 5000;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  20%  {background-color: yellow;}
+  40%  {background-color: blue;}
+  60% {background-color: green;}
+  80% {background-color: white;}
+  100% {background-color: red;}
+}
+
+#Nav {
+
+  line-height:30px;
+  height:400px;
+  width:100px;
+  float:left;
+  padding:5px;
+  background-color: #ccc;
+    list-style-type: none;
+    border-style:double;
+    margin: 0;
+    span.hand {cursor:hand;};
+}
+
+#Section {
+    margin: 0px 0px 0px 120px;
+    background-color: #ddd;
+    style="cursor:pointer;";
+}
+
+#footer {
+    background-color:lightyellow;
+    color:Black;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+button {
+  margin: 0px 0px 10px 20px;
+  border: 7px solid black;
+  border-radius: 40px;
+}
+
+html
+{
+background:url(65190.gif);
+background-size:100% 100%;
+
+background-repeat:no-repeat;
+}
